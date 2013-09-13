@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+html {
+    background: #f2f6fb;
+    color: #222;
+}
+
+.page-width {
+    margin: 0 auto;
+    max-width: 54em;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl, address,
+blockquote, fieldset,
+hr, table, p, pre {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #444;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+}
+
+.logo {
+    font-size: 1em;
+    margin: 0;
+}
+
+.logo em {
+    font-style: inherit;
+    opacity: 0.3;
+}
+
+.menu {
+    margin: 0;
+    float: right;
+}
+
+.menu li {
+    margin-left: 6px;
+    display: inline;
+}
+
+/* Boxes */
+
+.box {
+    padding: 24px 24px 1px;
+    margin-bottom: 22px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-dark {
+    background: #444;
+    color: #fff;
+}
+
+.box-dark a {
+    color: #fff;
+}
+
+.box-header {
+    padding: 12px 24px;
+}
+
+.box-header h1 {
+    color: #fff;
+}
+
+.box-splash {
+    padding: 72px 24px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.box-splash h2 {
+    margin-bottom: 12px;
+    font-size: 1.8em;
+}
+
+.split-3 {
+    float: left;
+    width: 239px;
+    padding: 24px;
+    border-top: 6px solid #444;
+    border-right: 1px solid rgba(0,0,0, 0.05);
+}
+
+.split-last {
+    border-right: 0;
+}
+
+.split-3 h3 {
+    color: #444;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.split-3 p {
+    font-size: 14px;
+}
+
+.unpad {
+    padding: 0;
+}
+
+/* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
+img[width], img[height] {
+    max-width: none;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+
+/* Indents */
+
+ol, ul, blockquote {
+    margin-left: 48px;
+    margin-left: 3rem;
+    margin-right: 48px;
+    margin-right: 3rem;
+}
+
+li ul, li ol {
+    margin-bottom: 0;
+}
+
