@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="box box-section">
+    <h3>Blog</h3>
+
+    {% include pagination.html %}
+
+    <ul>
+        {% for post in paginator.posts %}
+            <li>
+                <a href="{{ post.link }}">{{ post.title }}</a>
+                {{ post.excerpt }}
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% include pagination.html %}
+</div>
+
