@@ -27,8 +27,8 @@ title: Home
         </p>
     </div>
 
-    <div class="box unpad cf">
-        <div class="split-3 split-work">
+    <div class="box box-section unpad cf">
+        <div class="split-3">
             <h3>Work</h3>
             <p>
                 You can usually find me building user interfaces
@@ -37,11 +37,11 @@ title: Home
                 and tracking changes in Git or Subversion.
             </p>
             <p>
-                See some projects I've <a href="#">worked on</a>.
+                See some projects I've <a href="/work">worked on</a>.
             </p>
         </div>
 
-        <div class="split-3 split-play">
+        <div class="split-3">
             <h3>Play</h3>
             <p>
                 Rich sources of inspiration for me are games, books, music, films,
@@ -52,11 +52,11 @@ title: Home
                 some recurring trends.
             </p>
             <p>
-                Read about some of <a href="#">my interests</a>.
+                Read about some of <a href="/blog">my interests</a>.
             </p>
         </div>
 
-        <div class="split-3 split-link split-last">
+        <div class="split-3 split-last">
             <h3>Socialising</h3>
             <p>
                 You might bump into me at one of the many tech-related events
@@ -71,17 +71,20 @@ title: Home
         </div>
     </div>
 
-    <div class="box">
-        {% include pagination.html %}
+    <div class="box box-section">
+        <div class="cf">
+            <div class="fl"><h3>Latest posts</h3></div>
+            <div class="fr"><a href="/blog">More posts</a></div>
+        </div>
+
         <ul>
-            {% for post in paginator.posts %}
+            {% for post in site.posts limit: 3 %}
                 <li>
                     <a href="{{ post.link }}">{{ post.title }}</a>
                     {{ post.excerpt }}
                 </li>
             {% endfor %}
         </ul>
-        {% include pagination.html %}
     </div>
 
 </div>

@@ -90,26 +90,30 @@ a {
     font-size: 1.8em;
 }
 
+.box-section {
+    border-top: 6px solid #444;
+    font-size: 14px;
+}
+
+.box-section h3 {
+    color: #444;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.box-section ul {
+    margin-left: 16px;
+}
+
 .split-3 {
     float: left;
     width: 239px;
     padding: 24px;
-    border-top: 6px solid #444;
     border-right: 1px solid rgba(0,0,0, 0.05);
 }
 
 .split-last {
     border-right: 0;
-}
-
-.split-3 h3 {
-    color: #444;
-    font-size: 1.2em;
-    margin-bottom: 12px;
-}
-
-.split-3 p {
-    font-size: 14px;
 }
 
 .unpad {
@@ -129,6 +133,14 @@ a {
 
 .cf {
     zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
 }
 
 /* Images */
