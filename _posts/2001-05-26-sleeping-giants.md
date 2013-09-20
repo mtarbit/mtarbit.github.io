@@ -1,0 +1,10 @@
+---
+layout: post
+date: '2001-05-26 13:34:19'
+slug: sleeping-giants
+title: Sleeping Giants
+link: 
+extra: 
+---
+
+[Nintendo](http://www.nintendo.com) unveiled [Gamecube at E3](http://e3.nintendo.com) a couple of weeks ago, and showed the rest of the industry where the [future of gaming](http://www.tendobox.com/cgi-bin/news/viewnews.cgi?category=3&amp;id=990138583) should lie. Pre E3 media consensus was that Microsoft was going to prove the strongest oposition for Sony's beligerd Playstation2 and Nintendo was being set up to be the also ran. Post E3 though the mood has changed Microsoft are on the back foot and media attention is now swinging to Nintendo. Its a shame that the industry works this way these days, the hardcore has always known what Nintendo is capable of, yet the Greystation genertaion percieve them only as the company which brought us the misjudged N64. In this nextGen world of marketing hype, the people with power seem to be the media, and they appear to have little grasp of the ebbs and flows of gaming history. When the likes of Forbes magazine is looked on to provide guidance on the state of play, we know we are in trouble.. Gamecube is set to launch in September in Japan and November in the US. It will cost around $200 to $300 depending on your location.. [Titles](http://cube.ign.com/news/35138.html) will include [Metroid](http://e3.nintendo.com/gallery/metroidprime/index.html), Luigis Mansion, Mario, Zelda, [Starfox Adventures,](http://e3.nintendo.com/gallery/starfox/index.html) Pikmin, and WaveRace.
