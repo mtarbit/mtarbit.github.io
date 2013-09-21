@@ -23,9 +23,9 @@ But the most colour is added by the variety of ways in which any problem can be 
 
 If you multiply everything together to find the number of available combinations implicit in that list you'll find that it yields a pretty impressive realm of possibility. Which leads to the fun in being overwhelmed which I mentioned earlier, sparking some of these interactions and standing back to see what happens can be pretty entertaining.
 
-There are some odd bugs and some iffy UI decisions, and there's the failure of nerve in the final portion of the game that's been \[discussed elsewhere\]\[idle\]. But take the web of interactions I've talked about above and add to this some beautiful graphics, a great storyline, \[fantastic voice acting\]\[yt\] (spoilers) and you end up with a really great game, deservedly \[topping the metacritic charts\]\[meta\]. There's also enough tiny little fun scripted moments and bits \[modelled into the environment\]\[pac\] to show that the development team were enjoying themselves too. Something which always puts the cherry on the cake for me.
+There are some odd bugs and some iffy UI decisions, and there's the failure of nerve in the final portion of the game that's been [discussed elsewhere][idle]. But take the web of interactions I've talked about above and add to this some beautiful graphics, a great storyline, [fantastic voice acting][yt] (spoilers) and you end up with a really great game, deservedly [topping the metacritic charts][meta]. There's also enough tiny little fun scripted moments and bits [modelled into the environment][pac] to show that the development team were enjoying themselves too. Something which always puts the cherry on the cake for me.
 
-\[idle\]: http://idlethumbs.net/display.php?id=271
-\[yt\]: http://www.youtube.com/watch?v=IO3NQYBRuy4
-\[meta\]: http://www.metacritic.com/games/xbox360/scores/
-\[pac\]: http://www.gametrailers.com/player/usermovies/97238.html
+[idle]: http://idlethumbs.net/display.php?id=271
+[yt]: http://www.youtube.com/watch?v=IO3NQYBRuy4
+[meta]: http://www.metacritic.com/games/xbox360/scores/
+[pac]: http://www.gametrailers.com/player/usermovies/97238.html

@@ -7,7 +7,7 @@ title: JavaScript line numbering for code samples
 
 Whoopsie! While poking around on this site the other night I was horrified to discover it was pretty badly b0rked in IE. Not quite sure how I managed to miss that, but hopefully I've put it right now.
 
-As bad luck would have it, one of the things that was broken was a javascript line-numbering function that I'd \[posted here previously\]\[mt\]. Best make amends with a corrected version for any readers I've lead astray, eh?
+As bad luck would have it, one of the things that was broken was a javascript line-numbering function that I'd [posted here previously][mt]. Best make amends with a corrected version for any readers I've lead astray, eh?
 
 So where previously we had:
 
@@ -52,4 +52,4 @@ As a caveat I should say that I believe some of this behaviour is dependent on w
 Tsk, the perils of coding in public.
 
 
-\[mt\]: http://matt.tarbit.org/2008/02/05/extending-bluecloth-with
+[mt]: http://matt.tarbit.org/2008/02/05/extending-bluecloth-with

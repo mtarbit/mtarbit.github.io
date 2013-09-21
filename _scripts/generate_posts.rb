@@ -75,7 +75,7 @@ def create_post_for_row(row)
   body = row['content']
 
   if body
-    body.gsub!(/\[([^\]]+)\](?!\()/, '\[\1\]')
+    body.gsub!(/(?<!\])\[([^\]]+)\](?!\[|\(|:)/, '\[\1\]')
     body.gsub!(/\s+tar[get]+=(['"]).*?\1\s*>/i, '>')
     body.gsub!(/\s+class=(['"]).*?\1\s*>/i, '>')
     body.gsub!(/<a href=(['"]).+?\1>/i) {|m| m.gsub(/&(?!amp;)/, '&amp;') }

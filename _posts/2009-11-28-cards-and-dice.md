@@ -17,13 +17,13 @@ Something like the IMDB of the board game world, BGG is a huge, ridiculously wel
 When browsing game entries, anything with an average user rating above about 7.5 is a good bet, though bear in mind that there tends to be a slight bias toward more complex games.
 
 __Some name designers to look out for:__<br />
-\[Reiner Knizia\]\[rk\], \[Uwe Rosenberg\]\[ur\], \[Richard Borg\]\[rb\]
+[Reiner Knizia][rk], [Uwe Rosenberg][ur], [Richard Borg][rb]
 
 __Some name publishers to look out for:__<br />
-\[Days of Wonder\]\[dow\], \[Fantasy Flight Games\]\[ffg\], \[Z-Man Games\]\[zmg\]
+[Days of Wonder][dow], [Fantasy Flight Games][ffg], [Z-Man Games][zmg]
 
 __Where to buy in the UK?:__<br />
-Waterstone's sometimes has the odd bestseller like Ticket to Ride or Carcassonne, but for a proper selection try the nearest branch of Travelling Man (or failing that see the \[BGG UK FAQ\]\[faq\]).
+Waterstone's sometimes has the odd bestseller like Ticket to Ride or Carcassonne, but for a proper selection try the nearest branch of Travelling Man (or failing that see the [BGG UK FAQ][faq]).
 
 #### 2-player games I own and like
 
@@ -61,17 +61,17 @@ The crossover between our two lists doesn't necessarily mean those are the best 
 * [Power Grid](http://bgg.cc/boardgame/2651)
 * [Tales of the Arabian Nights](http://bgg.cc/boardgame/34119)
 
-For a second opinion on some of these games and a few others, see Defective Yeti's article, \[Games For Two\]\[gft\].
+For a second opinion on some of these games and a few others, see Defective Yeti's article, [Games For Two][gft].
 
 And finally, a word of advance warning: I've found quite a few games seem a little bit underwhelming on first play. It's only after you've had a bit of time for the rules to settle in that you find yourself craving a game of this or that one and thinking about the strategies when you're away from the table, so try not to be quick to write anything off.
 
-\[rk\]: http://www.boardgamegeek.com/person/2
-\[ur\]: http://www.boardgamegeek.com/person/10
-\[rb\]: http://www.boardgamegeek.com/person/25
+[rk]: http://www.boardgamegeek.com/person/2
+[ur]: http://www.boardgamegeek.com/person/10
+[rb]: http://www.boardgamegeek.com/person/25
 
-\[dow\]: http://www.daysofwonder.com
-\[ffg\]: http://www.fantasyflightgames.com
-\[zmg\]: http://www.zmangames.com
+[dow]: http://www.daysofwonder.com
+[ffg]: http://www.fantasyflightgames.com
+[zmg]: http://www.zmangames.com
 
-\[faq\]: http://www.boardgamegeek.com/wiki/page/UK_FAQ
-\[gft\]: http://www.defectiveyeti.com/archives/001640.html
+[faq]: http://www.boardgamegeek.com/wiki/page/UK_FAQ
+[gft]: http://www.defectiveyeti.com/archives/001640.html

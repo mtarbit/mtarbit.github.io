@@ -9,7 +9,7 @@ I just spent a fun couple of days tinkering with the engine of this site and hav
 
 I started out just adding syntax highlighting but ended up adding page caching (to offset the performance hit of parsing code), and upgrading to Rails 2 (to get at a couple of caching related niceties). So due to all the change there may be the odd unresolved issue here or there that I've missed. Just drop me a comment if you spot anything poking out at an awkward angle.
 
-I figured I'd inaugurate my code highlighting with a little write-up of how I ended up doing it. I originally planned to use \[Ultraviolet\]\[uv\], but found it way too slow and a bit verbose in the CSS-naming department among other things. I also looked at various JS highlighters, but couldn't find one to suit, and decided it's a fairly resource intensive task to be off-loading onto the client anyway. Then I finally came back around to what I'd been looking at originally, which was the excellent Python library, \[Pygments\]\[pyg\]. I was put off at first by it not being ruby-native, and wondered if I'd need something like \[RuPy\]\[rp\] to bridge the gap. In the end I decided it'd be acceptable to do a system call out to the `pygmentize` command line interface:
+I figured I'd inaugurate my code highlighting with a little write-up of how I ended up doing it. I originally planned to use [Ultraviolet][uv], but found it way too slow and a bit verbose in the CSS-naming department among other things. I also looked at various JS highlighters, but couldn't find one to suit, and decided it's a fairly resource intensive task to be off-loading onto the client anyway. Then I finally came back around to what I'd been looking at originally, which was the excellent Python library, [Pygments][pyg]. I was put off at first by it not being ruby-native, and wondered if I'd need something like [RuPy][rp] to bridge the gap. In the end I decided it'd be acceptable to do a system call out to the `pygmentize` command line interface:
 
 	@@ruby
 
@@ -40,7 +40,7 @@ I figured I'd inaugurate my code highlighting with a little write-up of how I en
 
 	end
 
-As you can probably see, I'm using \[BlueCloth\]\[bc\] to format my posts, so I'm over-riding the method it calls to deal with indented code blocks. Doesn't provide any more graceful hooks unfortunately. I've also added an `@@language` line inspired by an article at \[Warpspire\]\[ws\] so that Pygments doesn't have to play the language guessing game. In fact, if you're using a JS highlighter and that's all you need, you can get away with something like this:
+As you can probably see, I'm using [BlueCloth][bc] to format my posts, so I'm over-riding the method it calls to deal with indented code blocks. Doesn't provide any more graceful hooks unfortunately. I've also added an `@@language` line inspired by an article at [Warpspire][ws] so that Pygments doesn't have to play the language guessing game. In fact, if you're using a JS highlighter and that's all you need, you can get away with something like this:
 
 	@@ruby
 
@@ -58,9 +58,9 @@ As you can probably see, I'm using \[BlueCloth\]\[bc\] to format my posts, so I'
 
 Aliasing the existing handler method to another name so that we can write a wrapper for it rather than over-writing it completely.
 
-Probably bears repeating that the first option isn't the speediest thing in the world, and might be best avoided unless you're prepared to implement some sort of caching. I should also mention that I finished putting this in place and then immediately found mention elsewhere of \[CodeRay\]\[cr\], which is a self-professed "fast" Ruby-native highlighter. I haven't tried it out yet but it looks fairly young and recommends Pygments itself right there on the front page anyway. Worth a look though.
+Probably bears repeating that the first option isn't the speediest thing in the world, and might be best avoided unless you're prepared to implement some sort of caching. I should also mention that I finished putting this in place and then immediately found mention elsewhere of [CodeRay][cr], which is a self-professed "fast" Ruby-native highlighter. I haven't tried it out yet but it looks fairly young and recommends Pygments itself right there on the front page anyway. Worth a look though.
 
-Oh, one last thing. I've used javascript (and \[Prototype\]\[pt\]) for my line-numbering so it doesn't get in the way in the source and stays out of CSS-unfriendly formats like RSS:
+Oh, one last thing. I've used javascript (and [Prototype][pt]) for my line-numbering so it doesn't get in the way in the source and stays out of CSS-unfriendly formats like RSS:
 
 	@@javascript
 
@@ -74,13 +74,13 @@ Oh, one last thing. I've used javascript (and \[Prototype\]\[pt\]) for my line-n
 
 Short and sweet!
 
-**Update:** Seems I was a little hasty with that line numbering function, \[here's a version\]\[ln\] that should also work in IE.
+**Update:** Seems I was a little hasty with that line numbering function, [here's a version][ln] that should also work in IE.
 
-\[uv\]: http://ultraviolet.rubyforge.org/
-\[pyg\]: http://pygments.org/
-\[rp\]: https://rubyforge.org/projects/rupy/
-\[bc\]: http://www.deveiate.org/projects/BlueCloth
-\[ws\]: http://warpspire.com/tipsresources/programming/hacking-markdown-classes-on-the-element/
-\[cr\]: http://coderay.rubychan.de/
-\[pt\]: http://www.prototypejs.org/
-\[ln\]: http://matt.tarbit.org/2008/07/23/javascript-line-numbering
+[uv]: http://ultraviolet.rubyforge.org/
+[pyg]: http://pygments.org/
+[rp]: https://rubyforge.org/projects/rupy/
+[bc]: http://www.deveiate.org/projects/BlueCloth
+[ws]: http://warpspire.com/tipsresources/programming/hacking-markdown-classes-on-the-element/
+[cr]: http://coderay.rubychan.de/
+[pt]: http://www.prototypejs.org/
+[ln]: http://matt.tarbit.org/2008/07/23/javascript-line-numbering
