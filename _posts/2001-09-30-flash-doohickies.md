@@ -3,8 +3,6 @@ layout: post
 date: '2001-09-30 12:33:32'
 slug: flash-doohickies
 title: Flash Doohickies
-link: 
-extra: 
 ---
 
 Explore the wonders of orbital trajectories while launching [space penguins](http://www.bigidea.com/penguins/kids/k_spacedpenguin.htm) from a giant slingshot into the safety of their cockpits.

@@ -3,8 +3,6 @@ layout: post
 date: '2001-08-14 17:02:24'
 slug: wang-king-lei-wins
 title: Wang King Lei wins
-link: 
-extra: 
 ---
 
 Well that was my favourite part from the original anyway... the speech did it even more justice too. Yes.... [Tekken](http://db.gamefaqs.com/coinop/arcade/file/tekken_plot_a.txt) is heading to the [Gameboy Advance](http://www.eagb.net/advance/), just in case you've had you're head in an PS2 hard drive bay for the past week.

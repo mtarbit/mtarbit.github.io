@@ -3,8 +3,6 @@ layout: post
 date: '2008-02-27 15:16:17'
 slug: bigger-isnt-always
 title: Bigger isn't always better
-link: 
-extra: 
 ---
 
 After the end of an incredible year for triple-A console titles we now find ourselves in a post-Christmas lull. There's a sour taste in our mouths from the few hopefuls who closed out the year with a rush to market in search of easy xmas dollahs (\[pointing\]\[ub\] \[no\]\[kl\] \[fingers\]\[bw\]). So what can be done to sweeten our palate? Well I don't know about you, but I'm seeing more and more promise in the lands of the portable, the web-based and the independent.

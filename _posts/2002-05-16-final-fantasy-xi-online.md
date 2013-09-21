@@ -3,8 +3,6 @@ layout: post
 date: '2002-05-16 15:06:24'
 slug: final-fantasy-xi-online
 title: Final Fantasy XI (online?)
-link: 
-extra: 
 ---
 
 They said they expected 50,000 on day one.

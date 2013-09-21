@@ -3,8 +3,6 @@ layout: post
 date: '2001-08-21 17:37:36'
 slug: pong-was-never-this-hard
 title: Pong was never this hard
-link: 
-extra: 
 ---
 
 And it never looked this good either.

@@ -3,8 +3,6 @@ layout: review
 date: '2008-01-28 16:07:02'
 slug: bioshock-xbox-360
 title: ! 'I''ve been playing: Bioshock (Xbox 360)'
-link: 
-extra: 
 ---
 
 I put off getting this after downloading the demo from live and having a bad experience with it. If I remember correctly, they'd added a security camera into a room in the demo where there isn't one in the final game, presumably to show off some of the extra interactions it brings. Unfortunately the room it was added to was largely lit in red making it hard to spot its field of vision. Consequently I found myself overwhelmed by multiple splicers and security bots at once, which is not something which suits my style of play. But what I found on making my way deeper into the game proper was that getting overwhelmed is all part of the fun.

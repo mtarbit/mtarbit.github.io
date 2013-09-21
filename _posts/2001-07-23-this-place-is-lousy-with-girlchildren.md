@@ -3,8 +3,6 @@ layout: post
 date: '2001-07-23 14:05:16'
 slug: this-place-is-lousy-with-girlchildren
 title: This place is lousy with girl-children!
-link: 
-extra: 
 ---
 
 Further to my post from yesterday, an additional movie trend is that of turgid comic-book adaptations. Thank the lord then that [Dan Clowes](http://www.fantagraphics.com/artist/clowes/clowesbio.html) and [Terry Zwigoff](http://us.imdb.com/Name?Zwigoff,+Terry) seem to have [managed the impossible](http://www.filmthreat.com/Reviews.asp?File=ReviewsOne.inc&amp;Id=2153) and created a comic-book film for love not money.

@@ -3,8 +3,6 @@ layout: post
 date: '2001-05-11 00:24:16'
 slug: dont-be-a-jackass
 title: Don't be a Jackass!
-link: 
-extra: 
 ---
 
 If the current trend for reality TV is all about getting a smug sense of self worth from watching the dregs of humanity whore themselves for the sake of their 15 minutes worth, then MTV's [Jackass](http://www.mtv.com/mtv/tubescan/jackass/) has to be the ultimate antidote. 

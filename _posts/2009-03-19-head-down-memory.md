@@ -3,8 +3,6 @@ layout: post
 date: '2009-03-19 22:49:19'
 slug: head-down-memory
 title: Head down memory lane until you come to the forest of doom...
-link: 
-extra: 
 ---
 
 For the past few weeks I've been digging back into the strange and wonderful world of roleplaying games where I spent so much of my youth. I've been back for visits \[now and then\]\[tag\] over the years, seeking out books and boxed sets at my mum's house or browsing the cover scans on labour-of-love sites like \[The Museum of Roleplaying Games\]\[morpg\]. But never stopping for much more than an hour or two.

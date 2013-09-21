@@ -3,8 +3,6 @@ layout: post
 date: '2008-02-05 11:36:43'
 slug: extending-bluecloth-with
 title: Extending BlueCloth with Pygments
-link: 
-extra: 
 ---
 
 I just spent a fun couple of days tinkering with the engine of this site and have finally emerged bruised, tired and slathered in axle grease.

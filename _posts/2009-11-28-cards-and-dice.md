@@ -3,8 +3,6 @@ layout: post
 date: '2009-11-28 20:21:17'
 slug: cards-and-dice
 title: Cards and dice and all things nice
-link: 
-extra: 
 ---
 
 I just spent a bit of time writing up some recommendations for 2-player board games to mail to a friend and thought I might as well add them here too.

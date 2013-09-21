@@ -3,8 +3,6 @@ layout: review
 date: '2009-08-23 23:02:08'
 slug: hobby-games-the
 title: ! 'I''ve been reading: Hobby Games: The 100 Best'
-link: 
-extra: 
 ---
 
 I read \[this great book of essays\]\[hg\] recently. Successful games designers of all stripes writing about the games closest to their hearts. It's a fun read, though some of the essays struggle a bit in evoking the appeal of games you've never seen before. Especially since the book contains no illustrations.

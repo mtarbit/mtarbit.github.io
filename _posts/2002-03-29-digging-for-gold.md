@@ -3,8 +3,6 @@ layout: post
 date: '2002-03-29 05:54:53'
 slug: digging-for-gold
 title: Digging for Gold
-link: 
-extra: 
 ---
 
 One of my brothers in arms has come up with a little ditty about friends in our industry...

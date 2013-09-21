@@ -3,8 +3,6 @@ layout: post
 date: '2001-07-18 19:37:22'
 slug: fobbed-off-by-jobs
 title: Fobbed off by Jobs?
-link: 
-extra: 
 ---
 
 I mean, what's [this](http://www.apple.com/powermac/) supposed to be?! It looks like they haven't finished the front off. And where's my flat-panel iMac?

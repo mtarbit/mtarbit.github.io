@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-12 13:57:33'
 slug: google-api-open-for-business
 title: Google API Open For Business
-link: 
-extra: 
 ---
 
 Further to yesterday's post, it seems that [Google's Web Service](http://www.google.com/apis/index.html) is now officially open. Or at least ready for testing and tinkering. Oreillynet is punctual as ever with Rael Dornfest's [comprehensive tutorial](http://www.oreillynet.com/cs/weblog/view/wlg/1283) on how to get started. There's a [devkit](http://www.google.com/apis/download.html) available for download from Google with sample SOAP requests/responses and Java and .NET bits and pieces to set you off on the right path. You'll also need to sign up for an [account](https://www.google.com/accounts/NewAccount?continue=http://api.google.com/createkey&amp;followup=http://api.google.com/createkey) since they're sensibly limiting developers to 1000 requests per day, and 10 results per response while still in beta.

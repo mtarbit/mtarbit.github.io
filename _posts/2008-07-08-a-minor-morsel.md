@@ -3,8 +3,6 @@ layout: post
 date: '2008-07-08 19:47:22'
 slug: a-minor-morsel
 title: A minor morsel
-link: 
-extra: 
 ---
 
 I haven't posted in ages, so I might as well use this to break radio silence. It's a solution to \[this little programming brain teaser from Dustin Diaz\]\[dd\]. I don't think it's as much of a puzzle as he seemed think, given by the responses in the comments and how long it took me, but regardless:

@@ -3,8 +3,6 @@ layout: post
 date: '2001-06-20 16:06:26'
 slug: gameboy-advance-contrast-control
 title: Gameboy Advance Contrast Control
-link: 
-extra: 
 ---
 
 Yep its true, the Gameboy Advance has a secret contrast control hidden under the sticker on its rear. [EAGB](http://www.eagb.net/cgi-bin/news/news.pl?action=gen_read_page&amp;id=uWNUoYz6dF) have the full instructions on how to adjust it. 

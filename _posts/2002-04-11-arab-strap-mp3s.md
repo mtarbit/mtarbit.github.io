@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-11 21:21:37'
 slug: arab-strap-mp3s
 title: Arab Strap MP3s
-link: 
-extra: 
 ---
 
 One of the best nights of my life involved seeing Arab Strap live, cheap Whisky, a flying kebab, a half ton block of sandstone,  my bleeding head and my girlfriends tears in the moonlight. 

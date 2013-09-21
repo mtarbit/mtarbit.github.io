@@ -3,8 +3,6 @@ layout: post
 date: '2001-06-13 20:26:33'
 slug: left-left-forward-right...-no-left
 title: Left, left, forward, right... No, left!!!
-link: 
-extra: 
 ---
 
 Sorry to lower the tone a little, but someone mentioned [Knightmare](http://www.angliatv.co.uk/angliagold/knightmare/content.html) in the Alien Front thread. So by popular demand [here it is](http://www.knightmare.clara.net/) dungeoneers! But beware, for danger may lurk everywhere...

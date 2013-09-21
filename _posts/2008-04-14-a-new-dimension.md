@@ -3,8 +3,6 @@ layout: post
 date: '2008-04-14 14:29:14'
 slug: a-new-dimension
 title: A new dimension in film-making
-link: 
-extra: 
 ---
 
 I haven't read too deeply into this, but I've seen a couple of signs lately that the movie industry might be looking to make money out of 3D (as in 3D glasses, and not specifically CGI). Disney's re-releasing the \[Toy Story films in 3D\]\[ts\], \[Pixar\]\[px\] is planning on releasing all it's films in 3D starting next year, and \[James Cameron\]\[jc\] has been doing some serious research into it for his closely-guarded upcoming blockbuster "Avatar". I wonder if this is something they're banking on to differentiate the big-screen experience from the DVD market. A return to the days when a trip to the cinema was a big event.

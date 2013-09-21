@@ -11,7 +11,11 @@ title: Blog
     <ul>
         {% for post in paginator.posts %}
             <li>
-                <a href="{{ post.link }}">{{ post.title }}</a>
+                {% if post.link %}
+                    <a href="{{ post.link }}">{{ post.title }}</a>
+                {% else %}
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                {% endif %}
                 {{ post.excerpt }}
             </li>
         {% endfor %}

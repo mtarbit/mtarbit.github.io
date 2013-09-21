@@ -3,8 +3,6 @@ layout: post
 date: '2001-12-15 12:32:57'
 slug: portable-paradise
 title: Portable paradise
-link: 
-extra: 
 ---
 
 This week has brought us a couple of moveable retro-gaming feasts to whet your appetite.

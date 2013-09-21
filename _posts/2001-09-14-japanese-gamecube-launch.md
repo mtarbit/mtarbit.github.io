@@ -3,8 +3,6 @@ layout: post
 date: '2001-09-14 18:24:14'
 slug: japanese-gamecube-launch
 title: Japanese Gamecube Launch
-link: 
-extra: 
 ---
 
 News is slowly begining to seep out of Japan on the Gamecube launch,

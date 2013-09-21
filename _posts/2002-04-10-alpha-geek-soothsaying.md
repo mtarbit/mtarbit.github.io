@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-10 11:14:23'
 slug: alpha-geek-soothsaying
 title: Alpha Geek Soothsaying
-link: 
-extra: 
 ---
 
 O'Reillynet has an [interesting piece](http://oreillynet.com/pub/a/network/2002/04/09/future.html) by [Tim O'Reilly](http://www.oreillynet.com/pub/au/27) about  what the thirteen-thirtyseven geeks are saying are the technologies to watch in the days to come.

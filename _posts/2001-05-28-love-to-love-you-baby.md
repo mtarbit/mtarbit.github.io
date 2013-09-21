@@ -3,8 +3,6 @@ layout: post
 date: '2001-05-28 22:16:38'
 slug: love-to-love-you-baby
 title: Love to love you baby
-link: 
-extra: 
 ---
 
 Its reassuring to know that the artists you love are inspired by the artists you love..

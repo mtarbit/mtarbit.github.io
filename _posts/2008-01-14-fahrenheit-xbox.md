@@ -3,8 +3,6 @@ layout: review
 date: '2008-01-14 23:00:20'
 slug: fahrenheit-xbox
 title: ! 'I''ve been playing: Fahrenheit (Xbox)'
-link: 
-extra: 
 ---
 
 A rough diamond that I missed out on the first time around, given a second lease of life by the Xbox Originals download service on the 360.

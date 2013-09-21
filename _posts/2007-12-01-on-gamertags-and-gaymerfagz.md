@@ -3,8 +3,6 @@ layout: post
 date: '2007-12-01 17:53:42'
 slug: on-gamertags-and-gaymerfagz
 title: On Gamertags and Gaymerfagz
-link: 
-extra: 
 ---
 
 So there was this [mini brouhaha](http://www.joystiq.com/2007/11/28/annual-reminder-xbox-live-trash-talk-is-vile/) last week over trash talk on xbox live, and homophobic or discriminatory trash talk in particular. It was kicked off by [a video posted on gaygamer.net](http://gaygamer.net/2007/11/disturbing_video_shows_player.html) of someone with the gamertag "xxx GayBoy xxx" playing Halo 3 multiplayer. Naturally, the air was turning blue around him. Despite the shocked tone of gaygamer's post, however, commenters have remained admirably measured in their response and note that the video only contains a couple of instances of full-fledged hate speech.

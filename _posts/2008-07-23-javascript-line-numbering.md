@@ -3,8 +3,6 @@ layout: post
 date: '2008-07-23 21:00:45'
 slug: javascript-line-numbering
 title: JavaScript line numbering for code samples
-link: 
-extra: 
 ---
 
 Whoopsie! While poking around on this site the other night I was horrified to discover it was pretty badly b0rked in IE. Not quite sure how I managed to miss that, but hopefully I've put it right now.

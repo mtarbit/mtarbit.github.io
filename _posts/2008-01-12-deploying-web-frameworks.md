@@ -3,8 +3,6 @@ layout: post
 date: '2008-01-12 11:27:48'
 slug: deploying-web-frameworks
 title: Deploying Web Frameworks
-link: 
-extra: 
 ---
 
 There was a lot of chitter-chatter this last week about the new web frameworks and the situation with regard to their performance and ease of deployment in shared hosting environments:

@@ -3,8 +3,6 @@ layout: post
 date: '2008-01-24 23:30:49'
 slug: colophonic-irrigation
 title: Colophonic Irrigation
-link: 
-extra: 
 ---
 
 In the interests of transparency, and because I've been a sucker for them ever since I first stumbled across one in the back of [an Oreilly book](http://www.oreilly.com/catalog/dhtmlref/index.html), I've added [a colophon](/about/) to my about page.

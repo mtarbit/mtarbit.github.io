@@ -3,8 +3,6 @@ layout: post
 date: '2002-05-11 19:03:12'
 slug: that-kwazy-kat
 title: That Kwazy Kat!
-link: 
-extra: 
 ---
 
 From a [faq session](http://www.aphex-twin.com/faq.html) on the official [aphex-twin site](http://www.aphex-twin.com/):

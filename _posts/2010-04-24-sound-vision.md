@@ -3,8 +3,6 @@ layout: post
 date: '2010-04-24 20:45:32'
 slug: sound-vision
 title: Sound & Vision
-link: 
-extra: 
 ---
 
 So you're an internerd who spends far too much time thinking about games, right?

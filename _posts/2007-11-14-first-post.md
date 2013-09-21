@@ -3,8 +3,6 @@ layout: post
 date: '2007-11-14 19:15:41'
 slug: first-post
 title: First post!
-link: 
-extra: 
 ---
 
 So what's it all about? Well, this is my new website. Mostly a blog, but in its dreams it's part tumblelog (give me a little while longer to work on that).

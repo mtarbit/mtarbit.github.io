@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-30 07:34:10'
 slug: nintendo-finds-the-real-third-dimension
 title: Nintendo finds the real third dimension
-link: 
-extra: 
 ---
 
 Last week, [Penny Arcade](http://www.penny-arcade.com/) let loose a rumour that Nintendo were going to announce something big at E3... something big that wasn't going to be just another (amazing) game title. Soon after, some guys on the [GameFAQs Gamecube Message Board](http://cgi.gamefaqs.com/boards/gentopic.asp?board=965) sussed out that this was related to display peripherals.

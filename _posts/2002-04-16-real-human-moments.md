@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-16 22:11:29'
 slug: real-human-moments
 title: Real Human Moments
-link: 
-extra: 
 ---
 
 [Richard Linklater](http://us.imdb.com/Name?Linklater,+Richard)'s animated film '[Waking Life](http://www.wakinglifemovie.com)' sees it's UK cinema release this weekend. I think Matt may have mentioned it in the past, but I just saw a short documentary on it Sky News is running and have been completely blown away.

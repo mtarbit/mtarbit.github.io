@@ -3,8 +3,6 @@ layout: post
 date: '2001-08-14 17:21:04'
 slug: breaking-up-is-hard-to-do
 title: Breaking up is hard to do
-link: 
-extra: 
 ---
 
 What is it about bands I like splitting up this year?

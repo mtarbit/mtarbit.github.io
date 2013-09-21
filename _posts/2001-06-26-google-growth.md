@@ -3,8 +3,6 @@ layout: post
 date: '2001-06-26 20:41:57'
 slug: google-growth
 title: Google growth
-link: 
-extra: 
 ---
 
 Google have added yet another string to their bow with the addition of a beta version [image search](http://images.google.com/). Notable more for the total randomness of it's results than it's usefulness. It's quite easy to dig up sites from the depths of the internet with this that you would never normally stumble across with a straight text search.

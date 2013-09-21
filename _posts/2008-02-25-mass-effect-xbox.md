@@ -3,8 +3,6 @@ layout: review
 date: '2008-02-25 11:35:20'
 slug: mass-effect-xbox
 title: ! 'I''ve been playing: Mass Effect (Xbox 360)'
-link: 
-extra: 
 ---
 
 Dear oh dear. It seems to me that we're in a strange predicament at the moment. The sheer budget, visual polish and hollywood-ification of a lot of next-gen output is throwing our good/bad detectors off kilter. There's something very wrong when a game like Mass Effect sneaks into the metacritic charts alongside 90 percenters like  Bioshock, The Orange Box, CoD4 and even Halo 3. Let's not beat about the bush, Mass Effect is a terrible game.

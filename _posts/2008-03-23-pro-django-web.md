@@ -3,8 +3,6 @@ layout: review
 date: '2008-03-23 21:44:37'
 slug: pro-django-web
 title: ! 'I''ve been reading: Pro Django: Web Development Done Right'
-link: 
-extra: 
 ---
 
 Disclaimer: I don't actually own a paper copy of this, I'm just in the process of working through it online at \[djangobook.com\]\[db\]. But while I'm at it I just wanted to jot down a few thoughts that are fresh in my mind.

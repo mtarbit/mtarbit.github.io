@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-15 19:31:46'
 slug: six-degrees-of-coveration
 title: Six Degrees of Coveration
-link: 
-extra: 
 ---
 
 I came across the [Covers Project](http://covers.wiw.org) while reading up on all this web services malarkey (since it has an [XML-RPC interface](http://covers.wiw.org/xmlrpc.php)). It's much fun, basically a database cross-referencing which recording artists have covered each other, and charting the longest interconnected chain of covers in the process. What's great about it is that it's still fairly incomplete. I'd added a Nirvana cover of Devo's <i>Turn Around</i>, and a Beastie Boys cover of Minor Threat's <i>Screaming At A Wall</i> within my first couple of minutes.

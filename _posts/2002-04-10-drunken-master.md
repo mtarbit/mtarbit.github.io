@@ -3,8 +3,6 @@ layout: post
 date: '2002-04-10 00:35:30'
 slug: drunken-master
 title: Drunken Master
-link: 
-extra: 
 ---
 
 

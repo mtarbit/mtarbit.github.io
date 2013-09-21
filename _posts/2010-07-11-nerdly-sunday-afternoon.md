@@ -3,8 +3,6 @@ layout: post
 date: '2010-07-11 14:18:56'
 slug: nerdly-sunday-afternoon
 title: Nerdly Sunday Afternoon
-link: 
-extra: 
 ---
 
 Discoveries from a morning's browsing: A tour of \[Origins Game Fair 2010\]\[origins\] in five parts. \[First part\]\[o1\] below, other parts here: \[2\]\[o2\], \[3\]\[o3\], \[4\]\[o4\], \[5\]\[o5\].

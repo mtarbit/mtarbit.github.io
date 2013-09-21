@@ -3,8 +3,6 @@ layout: post
 date: '2010-04-11 17:08:08'
 slug: the-yorkshire-fork
 title: The Yorkshire Fork
-link: 
-extra: 
 ---
 
 So my lovable lady vife has started an emblogulation over at \[theyorkshirefork.co.uk\]\[tyf\]. It's food-focussed, since that's the great love of her life (sniffle), but it's also entertaining enough that it'll hold your interest even if, like me, you're not a foodie by nature.

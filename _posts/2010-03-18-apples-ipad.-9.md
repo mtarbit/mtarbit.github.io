@@ -3,8 +3,6 @@ layout: post
 date: '2010-03-18 21:17:48'
 slug: apples-ipad.-9
 title: Apple's iPad. 9 Years in the Making?
-link: 
-extra: 
 ---
 
 How queer!

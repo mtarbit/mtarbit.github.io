@@ -3,8 +3,6 @@ layout: post
 date: '2001-09-13 22:19:01'
 slug: biohazard-cubed
 title: Biohazard Cubed
-link: 
-extra: 
 ---
 
 On the eve of Gamecube's home release [Capcom](http://cube.ign.com/news/38267.html) have announced that their [Biohazard / Resident Evil](http://cube.ign.com/news/38266.html) series will be [exclusive](http://cube.ign.com/news/38268.html) to Nintendo's console from now on.

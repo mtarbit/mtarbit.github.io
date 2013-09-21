@@ -3,8 +3,6 @@ layout: post
 date: '2001-08-29 21:20:52'
 slug: coding-for-the-good-of-mankind
 title: Coding for the good of mankind
-link: 
-extra: 
 ---
 
 Seems there's a heart-warming new trend in the anti-social world of bedroom programming, and it's all in the name of altruism.

@@ -3,8 +3,6 @@ layout: post
 date: '2002-06-25 21:41:56'
 slug: get-organizized
 title: Get Organizized
-link: 
-extra: 
 ---
 
 Here's a gaggle of IA links for you:

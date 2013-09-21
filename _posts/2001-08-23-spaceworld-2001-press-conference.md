@@ -3,8 +3,6 @@ layout: post
 date: '2001-08-23 18:21:55'
 slug: spaceworld-2001-press-conference
 title: Spaceworld 2001 Press Conference
-link: 
-extra: 
 ---
 
 Well Spaceworld starts tomorrow and as ever Nintendo have opened the floodgates a day early with their pre-show press conference. Shigeru Miyamoto took to the stage and stunned the crowd with a first look at [Mario and Zelda](http://cube.ign.com/news/37665.html) on Gamecube. Zelda especially was a shock to the system, featuring amazingly fluid cartoon style cell shading rather than the full 3D renders shown previously at the Tokyo Gameshow. 

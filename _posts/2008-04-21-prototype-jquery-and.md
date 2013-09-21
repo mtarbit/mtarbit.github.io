@@ -3,8 +3,6 @@ layout: post
 date: '2008-04-21 12:27:41'
 slug: prototype-jquery-and
 title: Prototype, jQuery and the toggling of hidden elements
-link: 
-extra: 
 ---
 
 Just wanted to share a couple of little Prototype niggles. In general I'm pro-\[Prototype\]\[pro\] because it feels like it's a closer fit to the typical ways of working that you see in non-library-using Javascript. \[JQuery\]\[jq\], on the other hand, has chaining and acts on elements using the same interfaces regardless of whether there are one or many. From the dabbling I've done, it seems like that gets you into the odd head-twisting situation, but I've yet to embark on a big project with jQuery, so judgement is reserved for now.

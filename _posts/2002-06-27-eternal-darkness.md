@@ -3,8 +3,6 @@ layout: post
 date: '2002-06-27 20:26:31'
 slug: eternal-darkness
 title: Eternal Darkness
-link: 
-extra: 
 ---
 
 If like me you own a Jap/US Gamecube you'll have been suffering from the dearth of A Grade titles from Nintendo since Christmas. Well the flood gates are about to open over the next couples of months with more potential classics on the way than you can shake a stick at.

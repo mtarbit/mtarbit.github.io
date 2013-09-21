@@ -3,8 +3,6 @@ layout: post
 date: '2002-03-26 20:10:39'
 slug: lespion-joiners
 title: l'Espion Joiners
-link: 
-extra: 
 ---
 
 I got a [l'Espion](http://www.digitaldreamco.com/shop/espion_review.html) digital camera a while back after seeing Matt @ [Frownland](http://www.frownland.com) recomending them. This camera is the size of a box of matches and dangles from the end of a key ring, so obviously the image resolution is pretty crap. In an effort to extract a modicum of extra resolution out of mine I've taken to making mini Hockney style [joiners](http://www.getty.edu/artsednet/resources/Look/Landscape/hockney.html).

@@ -3,8 +3,6 @@ layout: post
 date: '2001-06-17 16:41:01'
 slug: what-a-gradea-wanker
 title: What a Grade-A wanker!
-link: 
-extra: 
 ---
 
 Check out [this review](http://www.pitchforkmedia.com/record-reviews/r/radiohead/kid-a.shtml) of Radiohead's Kid A.. 

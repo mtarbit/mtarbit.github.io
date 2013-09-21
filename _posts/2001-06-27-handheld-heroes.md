@@ -3,8 +3,6 @@ layout: post
 date: '2001-06-27 18:58:18'
 slug: handheld-heroes
 title: Handheld Heroes
-link: 
-extra: 
 ---
 
 Reedy has pointed me in the direction of the awesome [Handhelden,](http://www.handhelden.com) a site dedicated to handheld gaming nostalgia. 

@@ -13,8 +13,6 @@ def usage(message)
   exit
 end
 
-puts ARGV.inspect
-
 loop do
   case ARGV[0]
   when /^(-u|--username)$/ then ARGV.shift; $username = ARGV.shift
@@ -95,11 +93,13 @@ def create_post_for_row(row)
     'layout' => row['variant'],
     'date'   => row['created_at'],
     'slug'   => row['slug'],
-    'title'  => row['title'],
-    'link'   => row['url'],
-    'extra'  => row['extra']
-  }.to_yaml + "---\n\n"
+    'title'  => row['title']
+  }
 
+  meta['link']  = row['url'] if row['url']
+  meta['extra'] = row['extra'] if row['extra']
+
+  meta = meta.to_yaml + "---\n\n"
   name = "#{time}-#{slug}.md"
 
   file = File.open(File.join(ABS_PATH, name), 'w')

@@ -3,8 +3,6 @@ layout: post
 date: '2007-12-18 10:10:59'
 slug: race-condition
 title: Race condition
-link: 
-extra: 
 ---
 
 What is up with new entries for web comics showing up in your RSS reader before the graphic of the comic itself is available? It happens to me all the time with \[Penny Arcade\]\[pa\] and I've had it happen a couple of times with \[Double Fine Action Comics\]\[dfac\]. 
