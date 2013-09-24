@@ -17,11 +17,14 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6,
-ul, ol, dl, address,
-blockquote, fieldset,
+ul, ol, dl, blockquote, fieldset,
 hr, table, p, pre {
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
+}
+
+address {
+    font-style: normal;
 }
 
 a {
@@ -120,6 +123,10 @@ a {
     padding: 0;
 }
 
+.project .screen {
+    display: none;
+}
+
 /* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .cf:before, .cf:after {
@@ -178,5 +185,15 @@ ol, ul, blockquote {
 
 li ul, li ol {
     margin-bottom: 0;
+}
+
+dl dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+dl dd {
+    margin-left: 120px;
 }
 
