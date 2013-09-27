@@ -123,8 +123,62 @@ a {
     padding: 0;
 }
 
+.box-cv-splash {
+    padding: 48px 24px;
+}
+
+.project-row {
+    margin-right: -16px;
+    margin-bottom: 24px;
+}
+
+.project {
+    float: left;
+    width: 400px;
+    margin-right: 16px;
+}
+
+.project .title {
+    width: 400px;
+    height: 250px;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+}
+
+.project .title h4 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 90px;
+    color: #fff;
+    text-shadow: 0 2px 1px rgba(0,0,0, 0.3);
+}
+
+.project .title h4 em {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
 .project .screen {
-    display: none;
+    width: 400px;
+    height: 250px;
+    background: #222;
+    margin-bottom: 12px;
+}
+
+.project .screen img {
+    width: 400px;
+    height: 250px;
+}
+
+.project .detail li {
+    margin-bottom: 6px;
+    color: #bbb;
+}
+
+.project .detail li span {
+    color: #222;
 }
 
 /* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -194,6 +248,7 @@ dl dt {
 }
 
 dl dd {
-    margin-left: 120px;
+    margin-left: 100px;
+    margin-bottom: 6px;
 }
 
