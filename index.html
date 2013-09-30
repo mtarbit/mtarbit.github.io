@@ -4,6 +4,7 @@ title: Home
 ---
 
 <div class="box box-dark box-splash">
+    <div class="avatar"></div>
     <h2>
         Hello. I'm Matt.
     </h2>
@@ -13,63 +14,66 @@ title: Home
     </p>
 </div>
 
-<div class="box box-section unpad cf">
-    <div class="split-3">
-        <h3>Work</h3>
-        <p>
-            You can usually find me building user interfaces
-            in HTML, CSS &amp; JS; writing applications in Ruby,
-            Python or JS; storing data in PostgreSQL or MySQL;
-            and tracking changes in Git or Subversion.
-        </p>
-        <p>
-            See some projects I've <a href="/work">worked on</a>.
-        </p>
+<div class="page-width">
+
+    <div class="box box-section unpad cf">
+        <div class="split-3">
+            <h3>Work</h3>
+            <p>
+                You can usually find me building user interfaces
+                in HTML, CSS &amp; JS; writing applications in Ruby,
+                Python or JS; storing data in PostgreSQL or MySQL;
+                and tracking changes in Git or Subversion.
+            </p>
+            <p>
+                See some projects I've <a href="/work">worked on</a>.
+            </p>
+        </div>
+
+        <div class="split-3">
+            <h3>Play</h3>
+            <p>
+                Favourite topics for idle conversation include games,
+                books, music, films, and on a good day, computers.
+            </p>
+            <p>
+                Other things too of course but those are
+                some recurring trends.
+            </p>
+            <p>
+                Read about some of <a href="/blog">my interests</a>.
+            </p>
+        </div>
+
+        <div class="split-3 split-last">
+            <h3>Socialising</h3>
+            <p>
+                You might bump into me at one of the myriad of tech-related events
+                in the Yorkshire area. Or you can get in touch now by emailing me at
+                <a href="mailto:matt@tarbit.org">matt@tarbit.org</a>.
+            </p>
+            <p>
+                Follow me on
+                <a href="http://www.github.com/mtarbit">GitHub</a> or
+                <a href="http://www.twitter.com/mtarbit">Twitter</a>.
+            </p>
+        </div>
     </div>
 
-    <div class="split-3">
-        <h3>Play</h3>
-        <p>
-            Favourite topics for idle conversation include games,
-            books, music, films, and on a good day, computers.
-        </p>
-        <p>
-            Other things too of course but those are
-            some recurring trends.
-        </p>
-        <p>
-            Read about some of <a href="/blog">my interests</a>.
-        </p>
+    <div class="box box-section">
+        <div class="cf">
+            <div class="fl"><h3>Latest posts</h3></div>
+            <div class="fr"><a href="/blog">More posts</a></div>
+        </div>
+
+        <ul>
+            {% for post in site.posts limit: 3 %}
+                <li>
+                    <a href="{{ post.link }}">{{ post.title }}</a>
+                    {{ post.excerpt }}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 
-    <div class="split-3 split-last">
-        <h3>Socialising</h3>
-        <p>
-            You might bump into me at one of the myriad of tech-related events
-            in the Yorkshire area. Or you can get in touch now by emailing me at
-            <a href="mailto:matt@tarbit.org">matt@tarbit.org</a>.
-        </p>
-        <p>
-            Follow me on
-            <a href="http://www.github.com/mtarbit">GitHub</a> or
-            <a href="http://www.twitter.com/mtarbit">Twitter</a>.
-        </p>
-    </div>
 </div>
-
-<div class="box box-section">
-    <div class="cf">
-        <div class="fl"><h3>Latest posts</h3></div>
-        <div class="fr"><a href="/blog">More posts</a></div>
-    </div>
-
-    <ul>
-        {% for post in site.posts limit: 3 %}
-            <li>
-                <a href="{{ post.link }}">{{ post.title }}</a>
-                {{ post.excerpt }}
-            </li>
-        {% endfor %}
-    </ul>
-</div>
-

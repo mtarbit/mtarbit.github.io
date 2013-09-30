@@ -3,24 +3,26 @@ layout: default
 title: Blog
 ---
 
-<div class="box box-section">
-    <h3>Blog</h3>
+<div class="page-width">
+    <div class="box box-section">
+        <h3>Blog</h3>
 
-    {% include pagination.html %}
+        {% include pagination.html %}
 
-    <ul>
-        {% for post in paginator.posts %}
-            <li>
-                {% if post.link %}
-                    <a href="{{ post.link }}">{{ post.title }}</a>
-                {% else %}
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                {% endif %}
-                {{ post.excerpt }}
-            </li>
-        {% endfor %}
-    </ul>
+        <ul>
+            {% for post in paginator.posts %}
+                <li>
+                    {% if post.link %}
+                        <a href="{{ post.link }}">{{ post.title }}</a>
+                    {% else %}
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    {% endif %}
+                    {{ post.excerpt }}
+                </li>
+            {% endfor %}
+        </ul>
 
-    {% include pagination.html %}
+        {% include pagination.html %}
+    </div>
 </div>
 
