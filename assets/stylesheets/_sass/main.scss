@@ -1,0 +1,262 @@
+@import "lib/normalize";
+
+$text-color: #222222;
+$spot-color: #444444;
+$page-color: #f2f6fb;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+html {
+    background: $page-color;
+    color: $text-color;
+}
+
+.page-width {
+    margin: 0 auto;
+    max-width: 54em;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl, blockquote, fieldset,
+hr, table, p, pre {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: $spot-color;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+}
+
+.logo {
+    font-size: 1em;
+    margin: 0;
+}
+
+.logo em {
+    font-style: inherit;
+    opacity: 0.3;
+}
+
+.menu {
+    margin: 0;
+    float: right;
+}
+
+.menu li {
+    margin-left: 6px;
+    display: inline;
+}
+
+/* Boxes */
+
+.box {
+    padding: 24px 24px 1px;
+    margin-bottom: 22px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-dark {
+    background: $spot-color;
+    color: #fff;
+}
+
+.box-dark a {
+    color: #fff;
+}
+
+.box-header {
+    padding: 12px 24px;
+}
+
+.box-header h1 {
+    color: #fff;
+}
+
+.box-splash {
+    padding: 72px 24px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.box-splash h2 {
+    margin-bottom: 12px;
+    font-size: 1.8em;
+}
+
+.box-section {
+    border-top: 6px solid $spot-color;
+    font-size: 14px;
+}
+
+.box-section h3 {
+    color: $spot-color;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.box-section ul {
+    margin-left: 16px;
+}
+
+.split-3 {
+    float: left;
+    width: 239px;
+    padding: 24px;
+    border-right: 1px solid rgba(0,0,0, 0.05);
+}
+
+.split-last {
+    border-right: 0;
+}
+
+.unpad {
+    padding: 0;
+}
+
+.box-cv-splash {
+    padding: 48px 24px;
+}
+
+.project-row {
+    margin-right: -16px;
+    margin-bottom: 24px;
+}
+
+.project {
+    float: left;
+    width: 400px;
+    margin-right: 16px;
+
+    .title {
+        width: 400px;
+        height: 250px;
+        background: rgba(0,0,0, 0.5);
+        position: absolute;
+
+        h4 {
+            text-align: center;
+            font-size: 2.3em;
+            margin-top: 90px;
+            color: #fff;
+            text-shadow: 0 2px 1px rgba(0,0,0, 0.3);
+
+            em {
+                display: block;
+                font-weight: normal;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    }
+
+    .screen {
+        width: 400px;
+        height: 250px;
+        background: $spot-color;
+        margin-bottom: 12px;
+
+        img {
+            width: 400px;
+            height: 250px;
+        }
+    }
+
+    .detail {
+        li {
+            margin-bottom: 6px;
+            color: #bbb;
+
+            span {
+                color: #222;
+            }
+        }
+    }
+}
+
+/* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
+img[width], img[height] {
+    max-width: none;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+
+/* Indents */
+
+ol, ul, blockquote {
+    margin-left: 48px;
+    margin-left: 3rem;
+    margin-right: 48px;
+    margin-right: 3rem;
+}
+
+li ul, li ol {
+    margin-bottom: 0;
+}
+
+dl dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+dl dd {
+    margin-left: 100px;
+    margin-bottom: 6px;
+}
+
