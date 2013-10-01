@@ -1,15 +1,17 @@
 @import "lib/normalize";
 
-$blue-color: #3366aa;
-$green-color: desaturate(adjust-hue($blue-color, -90), 10%);
+$blue-color: lighten(#3366aa, 10%);
+$green-color: adjust-hue(darken($blue-color, 10%), 270);
 $other-color: complement($blue-color);
 
 $text-color: #222222;
 $dark-color: #444444;
 
 $page-color: #f6f2fb;
-$spot-color: lighten($blue-color, 10%);
-$head-color: $green-color;
+$head-color: $blue-color;
+$spot-color: $dark-color;
+$line-color: grayscale($blue-color);
+$link-color: $blue-color;
 
 * {
     margin: 0;
@@ -45,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: $spot-color;
+    color: $link-color;
     font-weight: bold;
 }
 
@@ -125,8 +127,12 @@ a {
     font-size: 1.8em;
 }
 
+.box-splash p {
+    margin-bottom: 0;
+}
+
 .box-section {
-    border-top: 6px solid $spot-color;
+    border-top: 6px solid $line-color;
     font-size: 14px;
 }
 
