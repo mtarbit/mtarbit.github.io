@@ -13,6 +13,13 @@ $spot-color: $dark-color;
 $line-color: grayscale($blue-color);
 $link-color: $blue-color;
 
+$font-xxx-large: 40px;
+$font-xx-large:  32px;
+$font-x-large:   24px;
+$font-large:     20px;
+$font-medium:    16px;
+$font-small:     14px;
+
 * {
     margin: 0;
     padding: 0;
@@ -35,20 +42,47 @@ h1, h2, h3, h4, h5, h6,
 ul, ol, dl, blockquote, fieldset,
 hr, table, p, pre {
     margin-bottom: 24px;
-    margin-bottom: 1.5rem;
-}
-
-address {
-    font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: $spot-color;
 }
 
+h2 em, h3 em, h4 em, h5 em, h6 em {
+    font-weight: normal;
+}
+
+.xxx-large {
+    font-size: $font-xxx-large;
+}
+
+h2, .xx-large {
+    font-size: $font-xx-large;
+}
+
+h3, .x-large {
+    font-size: $font-x-large;
+}
+
+h4, .large {
+    font-size: $font-large;
+}
+
+h5, .medium {
+    font-size: $font-medium;
+}
+
+small, .small {
+    font-size: $font-small;
+}
+
 a {
     color: $link-color;
     font-weight: bold;
+}
+
+address {
+    font-style: normal;
 }
 
 .logo {
@@ -85,7 +119,7 @@ a {
 /* Boxes */
 
 .box {
-    padding: 24px 24px 1px;
+    padding: 24px 24px;
     margin-bottom: 22px;
     background: #fff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -115,30 +149,24 @@ a {
 
 .box-splash {
     padding: 48px 24px;
-    font-size: 1.2em;
     text-align: center;
     background: $head-color;
     margin-bottom: 0;
 }
 
 .box-splash h2 {
+    font-size: $font-xxx-large;
     color: #fff;
     margin-bottom: 12px;
-    font-size: 1.8em;
 }
 
 .box-splash p {
+    font-size: $font-large;
     margin-bottom: 0;
 }
 
 .box-section {
     border-top: 6px solid $line-color;
-    font-size: 14px;
-}
-
-.box-section h3 {
-    font-size: 1.4em;
-    line-height: 1.4em;
 }
 
 .box-section ul {
@@ -150,6 +178,10 @@ a {
     width: 239px;
     padding: 24px;
     border-right: 1px solid rgba(0,0,0, 0.05);
+}
+
+.split-3 p {
+    font-size: $font-small;
 }
 
 .split-last {
@@ -181,14 +213,14 @@ a {
 
         h4 {
             text-align: center;
-            font-size: 2.3em;
+            font-size: $font-xx-large;
             margin-top: 90px;
             color: #fff;
 
             em {
                 display: block;
                 font-weight: normal;
-                font-size: 18px;
+                font-size: $font-large;
                 color: #fff;
             }
         }
@@ -198,7 +230,7 @@ a {
         width: 400px;
         height: 250px;
         background: $blue-color;
-        margin-bottom: 12px;
+        margin-bottom: 18px;
 
         img {
             width: 400px;
@@ -208,8 +240,8 @@ a {
 
     .detail {
         li {
+            font-size: $font-small;
             margin-bottom: 6px;
-            color: #bbb;
 
             span {
                 color: #222;
@@ -269,13 +301,14 @@ th {
 
 ol, ul, blockquote {
     margin-left: 48px;
-    margin-left: 3rem;
-    margin-right: 48px;
-    margin-right: 3rem;
 }
 
 li ul, li ol {
     margin-bottom: 0;
+}
+
+dl {
+    font-size: $font-small;
 }
 
 dl dt {
@@ -285,7 +318,7 @@ dl dt {
 }
 
 dl dd {
-    margin-left: 100px;
+    margin-left: 8em;
     margin-bottom: 6px;
 }
 
