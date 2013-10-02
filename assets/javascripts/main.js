@@ -44,7 +44,7 @@ bg.styleElements = function(){
     this.h = this.$splash.outerHeight();
 
     this.$splash.css({ width: this.W + 'px', height: this.H + 'px', position: 'absolute', background: 'none' });
-    this.$canvas.css({ width: this.w + 'px', height: this.h + 'px', background: this.origBackground, marginBottom: this.origMarginBottom });
+    this.$canvas.css({ width: this.w + 'px', height: this.h + 'px', display: 'block', background: this.origBackground, marginBottom: this.origMarginBottom });
     this.$canvas.attr({ width: this.w, height: this.h });
 };
 
