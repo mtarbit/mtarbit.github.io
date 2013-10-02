@@ -1,5 +1,8 @@
 @import "lib/normalize";
 
+
+/* Variables */
+
 $blue-color:  lighten(#3366aa, 10%);
 $green-color: darken(adjust-hue($blue-color, 270), 10%);
 $other-color: complement($blue-color);
@@ -25,6 +28,9 @@ $font-small:     14px;
 $font-x-small:   12px;
 $font-xx-small:  10px;
 
+
+/* Text */
+
 * {
     margin: 0;
     padding: 0;
@@ -36,11 +42,6 @@ $font-xx-small:  10px;
 html {
     background: $page-color;
     color: $text-color;
-}
-
-.page-width {
-    margin: 24px auto;
-    max-width: 864px;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -102,10 +103,151 @@ address {
     font-style: normal;
 }
 
+
+/* Clear-fix and floats */
+/* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
+img[width], img[height] {
+    max-width: none;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+
+/* Indents */
+
+ol, ul, blockquote {
+    margin-left: 18px;
+}
+
+li ul, li ol {
+    margin-bottom: 0;
+}
+
+dl {
+    font-size: $font-small;
+}
+
+dl dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+dl dd {
+    margin-left: 8em;
+    margin-bottom: 6px;
+}
+
+/* Boxes */
+
+.box {
+    padding: 24px 24px;
+    margin-bottom: 24px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout */
+
+.page-width {
+    margin: 0 auto;
+    max-width: 864px;
+}
+
+.page-header, .page-footer, .page-splash {
+    color: #fff;
+    background: $spot-color;
+    margin: 0;
+    padding: 0;
+
+    .page-width {
+        padding: 12px 24px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+.page-splash {
+    font-size: $font-large;
+    text-align: center;
+    background: $head-color;
+
+    .page-width {
+        padding: 48px 24px;
+    }
+
+    h2 {
+        font-size: $font-xxx-large;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.page-header h1 {
+    color: #fff;
+}
+
+.page-footer {
+    margin-top: 48px;
+    font-size: $font-x-small;
+}
+
+section {
+    margin: 24px 0;
+    border-top: 6px solid $line-color;
+}
+
 .logo {
     float: left;
     font-size: $font-medium;
     margin: 0;
+
     em {
         font-style: inherit;
         opacity: 0.3;
@@ -115,6 +257,7 @@ address {
 .menu {
     margin: 0;
     float: right;
+
     li {
         margin-left: 6px;
         display: inline;
@@ -133,70 +276,7 @@ address {
     border-radius: 50px;
 }
 
-/* Boxes */
-
-.box {
-    padding: 24px 24px;
-    margin-bottom: 22px;
-    background: #fff;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.box-dark {
-    background: $spot-color;
-    color: #fff;
-}
-
-.box-dark a {
-    color: #fff;
-}
-
-.box-strap {
-    margin: 0;
-    padding: 0;
-
-    .page-width {
-        margin: 0 auto;
-        padding: 12px 24px;
-    }
-}
-
-.header h1 {
-    color: #fff;
-}
-
-.footer {
-    margin-top: 48px;
-    font-size: $font-x-small;
-}
-
-.box-splash {
-    font-size: $font-large;
-    padding: 48px 24px;
-    text-align: center;
-    background: $head-color;
-    margin-bottom: 0;
-}
-
-.box-splash h2 {
-    font-size: $font-xxx-large;
-    color: #fff;
-    margin-bottom: 12px;
-}
-
-.box-splash p {
-    margin-bottom: 0;
-}
-
-.box-section {
-    border-top: 6px solid $line-color;
-}
-
-.box-section ul {
-    margin-left: 16px;
-}
-
-.split-3 {
+.activity {
     font-size: $font-small;
     float: left;
     width: 239px;
@@ -204,17 +284,17 @@ address {
     border-right: 1px solid rgba(0,0,0, 0.05);
 }
 
-.split-last {
-    border-right: 0;
-}
-
 .unpad {
     padding: 0;
 }
 
-.box-cv-splash {
-    padding: 48px 24px;
+.last {
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
 }
+
+/* Work and CV */
 
 .project-row {
     margin-right: -16px;
@@ -269,77 +349,5 @@ address {
             }
         }
     }
-}
-
-/* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
-
-.cf:before, .cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    zoom: 1;
-}
-
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-
-/* Images */
-
-img {
-    max-width: 100%;
-}
-
-img[width], img[height] {
-    max-width: none;
-}
-
-
-/* Tables */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-th {
-    text-align: left;
-}
-
-
-/* Indents */
-
-ol, ul, blockquote {
-    margin-left: 48px;
-}
-
-li ul, li ol {
-    margin-bottom: 0;
-}
-
-dl {
-    font-size: $font-small;
-}
-
-dl dt {
-    font-weight: bold;
-    float: left;
-    clear: left;
-}
-
-dl dd {
-    margin-left: 8em;
-    margin-bottom: 6px;
 }
 

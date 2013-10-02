@@ -5,7 +5,7 @@ layout: default
 <div class="page-width">
     {% capture year %}{{ page.date | date: '%Y' }}{% endcapture %}
     {% if year < '2013' %}
-        <div class="box box-section">
+        <section class="box">
             <h3>Old content</h3>
             <p>
             This post is from one of several previous incarnations of
@@ -14,10 +14,10 @@ layout: default
             before it became a static jekyll site. If anything looks
             broken or is worded oddly that could be why. Pardon the dust.
             </p>
-        </div>
+        </section>
     {% endif %}
 
-    <div class="box box-section">
+    <section class="box">
         {{ content }}
-    </div>
+    </section>
 </div>

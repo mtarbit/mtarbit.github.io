@@ -7,7 +7,7 @@ var bg = {};
 bg.init = function(){
     this.$canvas = $('<canvas>');
 
-    this.$splash = $('.box-splash');
+    this.$splash = $('.page-splash');
     this.$splash.after(this.$canvas);
 
     this.canvas = this.$canvas.get(0);
