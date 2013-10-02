@@ -1,13 +1,44 @@
 $(function(){
-    bg.init();
+    pageFooter.init();
+    pageSplash.init();
 });
 
-var bg = {};
 
-bg.init = function(){
-    this.$canvas = $('<canvas>');
+var pageFooter = {};
 
+pageFooter.init = function(){
+    this.$footer = $('.page-footer');
+    if (!this.$footer.length) return;
+
+    var self = this;
+
+    $(window).on('resize', function(){
+        self.resetElements();
+        self.styleElements();
+    }).resize();
+};
+
+pageFooter.resetElements = function(){
+    this.$footer.css({ position: 'static', bottom: 'auto' });
+    this.footerWidth = this.$footer.width();
+};
+
+pageFooter.styleElements = function(){
+    var y1 = $(window).height();
+    var y2 = this.$footer.offset().top + this.$footer.outerHeight();
+    if (y1 > y2) {
+        this.$footer.css({ position: 'absolute', bottom: 0, width: this.footerWidth });
+    }
+};
+
+
+var pageSplash = {};
+
+pageSplash.init = function(){
     this.$splash = $('.page-splash');
+    if (!this.$splash.length) return;
+
+    this.$canvas = $('<canvas>');
     this.$splash.after(this.$canvas);
 
     this.canvas = this.$canvas.get(0);
@@ -31,12 +62,12 @@ bg.init = function(){
     }
 };
 
-bg.resetElements = function(){
+pageSplash.resetElements = function(){
     this.$splash.css({ width: 'auto', height: 'auto', position: 'relative', background: this.origBackground });
     this.$canvas.css({ width: 'auto', height: 'auto' });
 };
 
-bg.styleElements = function(){
+pageSplash.styleElements = function(){
     this.W = this.$splash.width();
     this.H = this.$splash.height();
 
@@ -48,12 +79,12 @@ bg.styleElements = function(){
     this.$canvas.attr({ width: this.w, height: this.h });
 };
 
-bg.stretchCanvas = function(){
+pageSplash.stretchCanvas = function(){
     this.resetElements();
     this.styleElements();
 };
 
-bg.paintCanvas = function(){
+pageSplash.paintCanvas = function(){
     var fh = 10;
 
     this.ctx.clearRect(0, 0, this.w, this.h);
