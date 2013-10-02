@@ -1,16 +1,19 @@
 @import "lib/normalize";
 
-$blue-color: lighten(#3366aa, 10%);
-$green-color: adjust-hue(darken($blue-color, 10%), 270);
+$blue-color:  lighten(#3366aa, 10%);
+$green-color: darken(adjust-hue($blue-color, 270), 10%);
 $other-color: complement($blue-color);
 
-$text-color: #222222;
-$dark-color: #444444;
+$darkest-grey: #222222;
+$dark-grey:    #444444;
+$mid-grey:     #888888;
+$light-grey:   #bbbbbb;
 
-$page-color: #f6f2fb;
+$text-color: #222222;
+$page-color: lighten(desaturate(adjust-hue($blue-color, 210), 30%), 42%);
 $head-color: $blue-color;
-$spot-color: $dark-color;
-$line-color: grayscale($blue-color);
+$spot-color: $dark-grey;
+$line-color: $mid-grey;
 $link-color: $blue-color;
 
 $font-xxx-large: 40px;
@@ -19,6 +22,8 @@ $font-x-large:   24px;
 $font-large:     20px;
 $font-medium:    16px;
 $font-small:     14px;
+$font-x-small:   12px;
+$font-xx-small:  10px;
 
 * {
     margin: 0;
@@ -35,7 +40,7 @@ html {
 
 .page-width {
     margin: 24px auto;
-    max-width: 54em;
+    max-width: 864px;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -76,9 +81,21 @@ small, .small {
     font-size: $font-small;
 }
 
+.x-small {
+    font-size: $font-x-small;
+}
+
+.xx-small {
+    font-size: $font-xx-small;
+}
+
 a {
     color: $link-color;
     font-weight: bold;
+}
+
+.dim {
+    color: $light-grey;
 }
 
 address {
@@ -87,7 +104,7 @@ address {
 
 .logo {
     float: left;
-    font-size: 1em;
+    font-size: $font-medium;
     margin: 0;
     em {
         font-style: inherit;
@@ -111,7 +128,7 @@ address {
     margin-bottom: 12px;
     width: 80px;
     height: 80px;
-    background: $dark-color url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
+    background: $spot-color url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
     border: 3px solid #fff;
     border-radius: 50px;
 }
@@ -126,7 +143,7 @@ address {
 }
 
 .box-dark {
-    background: $dark-color;
+    background: $spot-color;
     color: #fff;
 }
 
@@ -134,20 +151,27 @@ address {
     color: #fff;
 }
 
-.box-header {
-    padding: 12px 24px;
-    margin-bottom: 0;
-
-    h1 {
-        color: #fff;
-    }
+.box-strap {
+    margin: 0;
+    padding: 0;
 
     .page-width {
         margin: 0 auto;
+        padding: 12px 24px;
     }
 }
 
+.header h1 {
+    color: #fff;
+}
+
+.footer {
+    margin-top: 48px;
+    font-size: $font-x-small;
+}
+
 .box-splash {
+    font-size: $font-large;
     padding: 48px 24px;
     text-align: center;
     background: $head-color;
@@ -161,7 +185,6 @@ address {
 }
 
 .box-splash p {
-    font-size: $font-large;
     margin-bottom: 0;
 }
 
@@ -174,14 +197,11 @@ address {
 }
 
 .split-3 {
+    font-size: $font-small;
     float: left;
     width: 239px;
     padding: 24px;
     border-right: 1px solid rgba(0,0,0, 0.05);
-}
-
-.split-3 p {
-    font-size: $font-small;
 }
 
 .split-last {
@@ -239,8 +259,9 @@ address {
     }
 
     .detail {
+        font-size: $font-small;
+
         li {
-            font-size: $font-small;
             margin-bottom: 6px;
 
             span {
