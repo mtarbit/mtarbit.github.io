@@ -11,11 +11,12 @@ $darkest-grey: #222222;
 $dark-grey:    #444444;
 $mid-grey:     #888888;
 $light-grey:   #bbbbbb;
+$pale-grey:    #cccccc;
 
 $text-color: #222222;
 $page-color: lighten(desaturate(adjust-hue($blue-color, 210), 30%), 42%);
 $head-color: $blue-color;
-$spot-color: $dark-grey;
+$spot-color: $mid-grey;
 $line-color: $mid-grey;
 $link-color: $blue-color;
 
@@ -35,7 +36,8 @@ $font-xx-small:  10px;
     margin: 0;
     padding: 0;
     font-size: 1em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     line-height: 1.5;
 }
 
@@ -51,11 +53,20 @@ hr, table, p, pre {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     color: $spot-color;
 }
 
+h1, h2 {
+    font-weight: 700;
+}
+
 h2 em, h3 em, h4 em, h5 em, h6 em {
-    font-weight: normal;
+    margin: 0 0.2em;
+    font-style: inherit;
+    font-family: inherit;
+    font-weight: 300;
 }
 
 .xxx-large {
@@ -96,7 +107,7 @@ a {
 }
 
 .dim {
-    color: $light-grey;
+    color: $pale-grey;
 }
 
 address {
@@ -196,7 +207,7 @@ dl dd {
 
 .page-header, .page-footer, .page-splash {
     color: #fff;
-    background: $spot-color;
+    background: $dark-grey;
     margin: 0;
     padding: 0;
 
@@ -229,10 +240,6 @@ dl dd {
     }
 }
 
-.page-header h1 {
-    color: #fff;
-}
-
 .page-footer {
     margin-top: 48px;
     font-size: $font-x-small;
@@ -249,7 +256,8 @@ section {
     margin: 0;
 
     em {
-        font-style: inherit;
+        font-style: normal;
+        font-weight: inherit;
         opacity: 0.3;
     }
 }
@@ -319,9 +327,7 @@ section {
 
             em {
                 display: block;
-                font-weight: normal;
                 font-size: $font-large;
-                color: #fff;
             }
         }
     }
