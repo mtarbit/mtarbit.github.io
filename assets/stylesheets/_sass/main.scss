@@ -279,7 +279,7 @@ section {
     margin-bottom: 12px;
     width: 80px;
     height: 80px;
-    background: $spot-color url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
+    background: $dark-grey url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
     border: 3px solid #fff;
     border-radius: 50px;
 }
@@ -335,7 +335,7 @@ section {
     .screen {
         width: 400px;
         height: 250px;
-        background: $blue-color;
+        background: darken($blue-color, 10%);
         margin-bottom: 18px;
 
         img {
