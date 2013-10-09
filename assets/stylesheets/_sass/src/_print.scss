@@ -5,8 +5,13 @@
     }
 
     a {
+        color: $text-color;
         font-weight: normal;
         text-decoration: none;
+    }
+
+    .btn {
+        display: none;
     }
 
     .page-header, .page-footer {
