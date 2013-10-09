@@ -38,7 +38,7 @@ pageSplash.init = function(){
     this.$splash = $('.page-splash');
     if (!this.$splash.length) return;
 
-    this.$canvas = $('<canvas>');
+    this.$canvas = $('<canvas class="page-splash-canvas">');
     this.$splash.after(this.$canvas);
 
     this.canvas = this.$canvas.get(0);

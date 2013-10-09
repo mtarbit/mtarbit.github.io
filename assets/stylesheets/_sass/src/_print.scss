@@ -1,0 +1,79 @@
+@media print {
+
+    html {
+        background: #fff;
+    }
+
+    a {
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .page-header, .page-footer {
+        display: none;
+    }
+
+    .avatar, .page-splash-canvas {
+        display: none !important;
+    }
+
+    .page-splash {
+        background: none;
+        text-align: left;
+
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        padding: 0;
+        margin: 0 0 48px 0;
+
+        .page-width {
+            padding: 0;
+            margin: 0;
+            width: auto;
+        }
+    }
+
+    .page-width {
+        padding: 0;
+        margin: 0;
+    }
+
+    .page-splash, .page-splash h2 {
+        color: inherit;
+    }
+
+    .box {
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section {
+        border-top-width: 1px;
+    }
+
+    .project {
+        .title {
+            position: static;
+            width: auto;
+            height: auto;
+
+            h4 {
+                font-size: $font-large;
+                margin: 0 0 12px 0;
+                color: inherit;
+                text-align: inherit;
+
+                em {
+                    font-size: inherit;
+                    display: inline;
+                }
+            }
+        }
+        .screen {
+            display: none;
+        }
+    }
+
+}
