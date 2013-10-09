@@ -1,0 +1,56 @@
+
+/* Work and CV */
+
+.project-row {
+    margin-right: -16px;
+    margin-bottom: 24px;
+}
+
+.project {
+    float: left;
+    width: 400px;
+    margin-right: 16px;
+
+    .title {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+
+        h4 {
+            text-align: center;
+            font-size: $font-xx-large;
+            margin-top: 90px;
+            color: #fff;
+
+            em {
+                display: block;
+                font-size: $font-large;
+            }
+        }
+    }
+
+    .screen {
+        width: 400px;
+        height: 250px;
+        background: darken($blue-color, 10%);
+        margin-bottom: 18px;
+
+        img {
+            width: 400px;
+            height: 250px;
+        }
+    }
+
+    .detail {
+        font-size: $font-small;
+
+        li {
+            margin-bottom: 6px;
+
+            span {
+                color: #222;
+            }
+        }
+    }
+}
+

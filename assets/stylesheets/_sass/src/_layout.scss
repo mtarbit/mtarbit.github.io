@@ -1,0 +1,105 @@
+
+/* Layout */
+
+.page-width {
+    margin: 0 auto;
+    width: $page-width;
+}
+
+.page-header, .page-footer, .page-splash {
+    color: #fff;
+    background: $dark-grey;
+    margin: 0;
+    padding: 0;
+
+    .page-width {
+        padding: 12px 24px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+.page-splash {
+    font-size: $font-large;
+    text-align: center;
+    background: $head-color;
+
+    .page-width {
+        padding: 48px 24px;
+    }
+
+    h2 {
+        font-size: $font-xxx-large;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.page-footer {
+    margin-top: 48px;
+    font-size: $font-x-small;
+}
+
+section {
+    margin: 24px 0;
+    border-top: 6px solid $line-color;
+}
+
+.logo {
+    float: left;
+    font-size: $font-medium;
+    margin: 0;
+
+    em {
+        font-style: normal;
+        font-weight: inherit;
+        opacity: 0.3;
+    }
+}
+
+.menu {
+    margin: 0;
+    float: right;
+
+    li {
+        margin-left: 6px;
+        display: inline;
+    }
+}
+
+.avatar {
+    position: relative;
+    left: 50%;
+    margin-left: -43px;
+    margin-bottom: 12px;
+    width: 80px;
+    height: 80px;
+    background: $dark-grey url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
+    border: 3px solid #fff;
+    border-radius: 50px;
+}
+
+.activity {
+    font-size: $font-small;
+    float: left;
+    width: 239px;
+    padding: 24px;
+    border-right: 1px solid rgba(0,0,0, 0.05);
+}
+
+.unpad {
+    padding: 0;
+}
+
+.last {
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+}
+

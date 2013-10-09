@@ -1,0 +1,84 @@
+
+/* Clear-fix and floats */
+/* Micro clear-fix, see: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
+img[width], img[height] {
+    max-width: none;
+}
+
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+
+/* Indents */
+
+ol, ul, blockquote {
+    margin-left: 18px;
+}
+
+li ul, li ol {
+    margin-bottom: 0;
+}
+
+dl {
+    font-size: $font-small;
+}
+
+dl dt {
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+dl dd {
+    margin-left: 8em;
+    margin-bottom: 6px;
+}
+
+/* Boxes */
+
+.box {
+    padding: 24px 24px;
+    margin-bottom: 24px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+

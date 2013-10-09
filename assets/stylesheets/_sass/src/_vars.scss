@@ -1,0 +1,34 @@
+
+/* Variables */
+
+$blue-color:  lighten(#3366aa, 10%);
+$green-color: desaturate(adjust-hue($blue-color, 270), 20%);
+$other-color: complement($blue-color);
+
+$darkest-grey: #222222;
+$dark-grey:    #444444;
+$mid-grey:     #888888;
+$light-grey:   #bbbbbb;
+$pale-grey:    #cccccc;
+
+$text-color: #222222;
+$page-color: lighten(desaturate(adjust-hue($blue-color, 210), 30%), 42%);
+$head-color: $blue-color;
+$spot-color: $mid-grey;
+$line-color: $mid-grey;
+$link-color: $blue-color;
+
+$page-width: 864px;
+
+$font-xxx-large: 40px;
+$font-xx-large:  32px;
+$font-x-large:   24px;
+$font-large:     20px;
+$font-medium:    16px;
+$font-small:     14px;
+$font-x-small:   12px;
+$font-xx-small:  10px;
+
+$font-robo: 'Roboto', Helvetica, Arial, sans-serif;
+$font-open: 'Open Sans', Helvetica, Arial, sans-serif;
+
