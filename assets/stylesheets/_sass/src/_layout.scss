@@ -73,7 +73,7 @@ section {
 
 section + section {
     border-top: 1px solid rgba(0,0,0, 0.1);
-    padding-top: 36px;
+    padding-top: 24px;
 }
 
 .logo {
@@ -127,6 +127,10 @@ section + section {
     i.icon-code {
         top: 1px;
         font-size: 32px;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
     }
 }
 

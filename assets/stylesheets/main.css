@@ -1767,6 +1767,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 em, h3 em, h4 em, h5 em, h6 em {
   margin: 0 0.2em;
+  color: #bbbbbb;
   font-style: inherit;
   font-family: inherit;
   font-weight: 300;
@@ -1882,7 +1883,7 @@ dl {
 }
 
 dl dt {
-  font-weight: bold;
+  color: #bbbbbb;
   float: left;
   clear: left;
 }
@@ -1955,7 +1956,7 @@ section {
 
 section + section {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 36px;
+  padding-top: 24px;
 }
 
 .logo {
@@ -2006,6 +2007,9 @@ section + section {
 .activity i.icon-code {
   top: 1px;
   font-size: 32px;
+}
+.activity p:last-child {
+  margin-bottom: 0;
 }
 
 .unpad {
@@ -2059,12 +2063,15 @@ section + section {
 .project .title h4 {
   text-align: center;
   font-size: 32px;
+  font-weight: 400;
   margin-top: 90px;
   color: #fff;
 }
 .project .title h4 em {
   display: block;
   font-size: 20px;
+  font-weight: 300;
+  color: inherit;
 }
 .project .screen {
   width: 400px;
