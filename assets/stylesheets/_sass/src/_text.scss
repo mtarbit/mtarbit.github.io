@@ -10,11 +10,6 @@
     line-height: 1.5;
 }
 
-html {
-    background: $page-color;
-    color: $text-color;
-}
-
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl, blockquote, fieldset,
 hr, table, p, pre {
@@ -25,10 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-open;
     font-weight: 400;
     color: $spot-color;
-}
-
-h1, h2 {
-    font-weight: 700;
 }
 
 h2 em, h3 em, h4 em, h5 em, h6 em {

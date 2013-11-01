@@ -5,7 +5,7 @@ layout: default
 <div class="page-width">
     {% capture year %}{{ page.date | date: '%Y' }}{% endcapture %}
     {% if year < '2013' %}
-        <section class="box">
+        <section>
             <h3>Old content</h3>
             <p>
                 This post is from one of several previous incarnations of
@@ -17,7 +17,7 @@ layout: default
         </section>
     {% endif %}
 
-    <section class="box">
+    <section>
         {{ content }}
     </section>
 </div>
