@@ -1,33 +1,59 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Bariol';
+    src: url(../fonts/bariol/Bariol_Thin.otf) format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url(../fonts/bariol/Bariol_Light.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url(../fonts/bariol/Bariol_Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 /* Text */
+
+html {
+    font-size: 1em;
+    font-family: $font-roboto;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $text-color;
+}
 
 * {
     margin: 0;
     padding: 0;
-    font-size: 1em;
-    font-family: $font-robo;
-    font-weight: 300;
-    line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6,
+h2, h3, h4, h5, h6,
 ul, ol, dl, blockquote, fieldset,
 hr, table, p, pre {
     margin-bottom: 24px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $font-open;
+h2, h3, h4, h5, h6 {
+    font-family: $font-bariol;
     font-weight: 400;
-    color: $spot-color;
+    color: $darker-grey;
 }
 
 h2 em, h3 em, h4 em, h5 em, h6 em {
+    color: $mid-grey;
     margin: 0 0.2em;
-    color: $light-grey;
     font-style: inherit;
     font-family: inherit;
-    font-weight: 300;
 }
 
 .xxx-large {
@@ -70,7 +96,6 @@ a {
 .btn {
     font-size: 0.8em;
     font-weight: 400;
-    font-family: $font-open;
     text-decoration: none;
     color: #fff;
     background: $green-color;

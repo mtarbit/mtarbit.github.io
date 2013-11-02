@@ -1,10 +1,6 @@
 
 /* Layout */
 
-html {
-    color: $text-color;
-}
-
 .page-width {
     margin: 0 auto;
     width: $page-width;
@@ -34,9 +30,10 @@ html {
     }
 
     h2 {
-        font-size: $font-xxx-large;
-        font-weight: 700;
         color: #fff;
+        font-size: $font-xxx-large;
+        font-weight: 100;
+        line-height: 1;
         margin-bottom: 12px;
     }
 
@@ -48,6 +45,11 @@ html {
 .page-footer {
     margin-top: 72px;
     font-size: $font-x-small;
+    color: $mid-grey;
+
+    a {
+        font-weight: inherit;
+    }
 
     a.icon {
         text-decoration: none;
@@ -99,10 +101,7 @@ section + section {
 }
 
 .avatar {
-    position: relative;
-    left: 50%;
-    margin-left: -43px;
-    margin-bottom: 12px;
+    margin: 0 auto 24px auto;
     width: 80px;
     height: 80px;
     background: $darker-grey url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;

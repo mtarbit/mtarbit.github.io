@@ -91,7 +91,7 @@ pageSplash.paintCanvas = function(){
 
     this.ctx.font = fh + "px 'Courier'";
     this.ctx.textBaseline = 'top';
-    this.ctx.fillStyle = 'rgba(255,255,255, 0.2)';
+    this.ctx.fillStyle = 'rgba(255,255,255, 0.125)';
 
     var fw = this.ctx.measureText('\u2571').width;
 
