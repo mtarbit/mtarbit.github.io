@@ -64,7 +64,7 @@ pageSplash.init = function(){
 
 pageSplash.resetElements = function(){
     this.$splash.css({ width: 'auto', height: 'auto', position: 'relative', background: this.origBackground });
-    this.$canvas.css({ width: 'auto', height: 'auto' });
+    this.$canvas.css({ width: 'auto', height: 'auto', display: 'none' });
 };
 
 pageSplash.styleElements = function(){

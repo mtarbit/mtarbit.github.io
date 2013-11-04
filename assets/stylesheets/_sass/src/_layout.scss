@@ -1,6 +1,10 @@
 
 /* Layout */
 
+html, body {
+    height: 100%;
+}
+
 .page-width {
     margin: 0 auto;
     width: $page-width;
@@ -40,6 +44,10 @@
     p {
         margin-bottom: 0;
     }
+}
+
+.page-splash-canvas {
+    display: none;
 }
 
 .page-footer {
