@@ -43,17 +43,22 @@ pageSplash.init = function(){
 
     this.canvas = this.$canvas.get(0);
 
-    this.origBackground = this.$splash.css('background');
+    this.origBackground = this.$splash.css('backgroundColor');
     this.origMarginBottom = this.$splash.css('marginBottom');
 
     if (this.canvas.getContext) {
-        this.ctx = this.canvas.getContext('2d');
+        this.renderer = pageSplashTris;
 
         var self = this;
 
         $(window).on('resize', function(){
-            self.stretchCanvas();
-            self.paintCanvas();
+            self.resetElements();
+            self.styleElements();
+
+            self.renderer.init(self, self.canvas.getContext('2d'));
+            self.renderer.paint();
+
+            // self.animate();
         }).resize();
 
     } else {
@@ -79,37 +84,193 @@ pageSplash.styleElements = function(){
     this.$canvas.attr({ width: this.w, height: this.h });
 };
 
-pageSplash.stretchCanvas = function(){
-    this.resetElements();
-    this.styleElements();
+pageSplash.animate = function() {
+    if (this.timeoutId) {
+        clearTimeout(this.timeoutId);
+        this.timeoutId = null;
+    }
+
+    this.renderer.paintFrame();
+
+    this.timeoutId = setTimeout(function(){
+        this.animate();
+    }.bind(this), 30);
 };
 
-pageSplash.paintCanvas = function(){
-    var fh = 10;
 
-    this.ctx.clearRect(0, 0, this.w, this.h);
+var pageSplashTris = {};
 
-    this.ctx.font = fh + "px 'Courier'";
-    this.ctx.textBaseline = 'top';
-    this.ctx.fillStyle = 'rgba(255,255,255, 0.125)';
+pageSplashTris.init = function(splash, canvasContext){
+    this.splash = splash;
+    this.ctx = canvasContext;
 
-    var fw = this.ctx.measureText('\u2571').width;
+    var triSide = 24;
 
-    var rows = Math.ceil(this.h / fh);
-    var cols = Math.ceil(this.w / fw);
+    this.paintW = triSide / 2;
+    this.paintH = Math.sqrt(Math.pow(triSide, 2) - Math.pow(this.paintW, 2));
 
-    for (var r = 0; r < rows; r++) {
-        for (var c = 0; c < cols; c++) {
-            var x = c * fw;
-            var y = r * fh;
+    this.rows = Math.ceil(this.splash.h / this.paintH);
+    this.cols = Math.ceil((this.splash.w / this.paintW) + 1);
+};
 
-            // if (Math.random() < (r / rows)) {
-            //   var s = String.fromCharCode(33 + Math.round(Math.random() * 93));
-            // } else {
-                var s = (Math.random() > 0.5) ? '\u2571' : '\u2572';
-            // }
+pageSplashTris.paint = function(){
+    this.ctx.clearRect(0, 0, this.splash.w, this.splash.h);
 
-            this.ctx.fillText(s, x, y);
+    for (var r = 0; r < this.rows; r++) {
+        for (var c = 0; c < this.cols; c++) {
+            this.paintTriangle(r, c);
         }
     }
 };
+
+pageSplashTris.paintFrame = function() {
+    var r = Math.round(Math.random() * this.rows);
+    var c = Math.round(Math.random() * this.cols);
+    this.paintTriangle(r, c, true);
+};
+
+pageSplashTris.paintTriangle = function(r, c, clear) {
+    var x = c * this.paintW;
+    var y = r * this.paintH;
+    var n = Math.random();
+
+    var oddCol = c % 2;
+    var oddRow = r % 2;
+
+    this.ctx.save();
+    this.ctx.translate(x, y);
+
+    this.ctx.beginPath();
+    if ((!oddRow && oddCol) || (oddRow && !oddCol)) {
+        this.ctx.moveTo(0, 0);
+        this.ctx.lineTo( this.paintW, this.paintH);
+        this.ctx.lineTo(-this.paintW, this.paintH);
+    } else {
+        this.ctx.moveTo(-this.paintW, 0);
+        this.ctx.lineTo( this.paintW, 0);
+        this.ctx.lineTo(0, this.paintH);
+    }
+    this.ctx.closePath();
+
+    if (clear) {
+        this.ctx.fillStyle = this.splash.origBackground;
+        this.ctx.fill();
+    }
+
+    if (Math.random() > 0.5) {
+        this.ctx.fillStyle = 'rgba(51,51,51, ' + (n * 0.05) + ')';
+        this.ctx.fill();
+    } else {
+        this.ctx.fillStyle = 'rgba(255,255,255, ' + (n * 0.05) + ')';
+        this.ctx.fill();
+    }
+
+    this.ctx.restore();
+};
+
+
+var pageSplashMaze = {};
+
+pageSplashMaze.init = function(splash, canvasContext){
+    this.splash = splash;
+    this.ctx = canvasContext;
+
+    this.paintH = 10;
+
+    this.ctx.font = this.paintH + "px 'Courier'";
+    this.ctx.textBaseline = 'top';
+
+    this.paintW = this.ctx.measureText('\u2571').width;
+
+    this.rows = Math.ceil(this.splash.h / this.paintH);
+    this.cols = Math.ceil(this.splash.w / this.paintW);
+};
+
+pageSplashMaze.paint = function(){
+    this.ctx.clearRect(0, 0, this.splash.w, this.splash.h);
+    this.ctx.fillStyle = 'rgba(255,255,255, 0.125)';
+
+    for (var r = 0; r < this.rows; r++) {
+        for (var c = 0; c < this.cols; c++) {
+            this.paintText(r, c);
+        }
+    }
+};
+
+pageSplashMaze.paintFrame = function() {
+    var c = Math.floor(Math.random() * this.cols);
+    var r = Math.floor(Math.random() * this.rows);
+    this.paintText(r, c, true);
+};
+
+pageSplashMaze.paintText = function(r, c, clear) {
+    var w = this.paintW;
+    var h = this.paintH;
+
+    var x = c * w;
+    var y = r * h;
+    var s = (Math.random() > 0.5) ? '\u2571' : '\u2572';
+
+    if (clear) {
+        this.ctx.clearRect(x + 1, y + 1, w, h);
+    }
+
+    this.ctx.fillText(s, x, y);
+};
+
+
+var pageSplashRect = {};
+
+pageSplashRect.init = function(splash, canvasContext){
+    this.splash = splash;
+    this.ctx = canvasContext;
+
+    this.paintH = 18;
+    this.paintW = this.paintH;
+
+    this.rows = Math.ceil(this.splash.h / this.paintH);
+    this.cols = Math.ceil(this.splash.w / this.paintW);
+};
+
+pageSplashRect.paint = function(){
+    this.ctx.clearRect(0, 0, this.splash.w, this.splash.h);
+
+    for (var i = 0; i < 1000; i++) {
+        this.paintFrame();
+    }
+};
+
+pageSplashRect.paintFrame = function() {
+    var r = Math.floor(Math.random() * this.rows);
+    var c = Math.floor(Math.random() * this.cols);
+    this.paintSquare(r, c, true);
+};
+
+pageSplashRect.paintSquare = function(r, c, clear) {
+    var w = this.paintW;
+    var h = this.paintH;
+
+    var x = c * w;
+    var y = r * h;
+
+    var n = 0.05 * Math.random();
+    var p = clear ? Math.pow(2, Math.floor(3 * Math.random())) : 1;
+
+    w *= p;
+    h *= p;
+    x -= (w * 0.5);
+    y -= (h * 0.5);
+
+    if (clear) {
+        this.ctx.clearRect(x, y, w, h);
+    }
+
+    if (Math.random() > 0.5) {
+        this.ctx.fillStyle = 'rgba(51,51,51, ' + n + ')';
+    } else {
+        this.ctx.fillStyle = 'rgba(255,255,255, ' + n + ')';
+    }
+
+    this.ctx.fillRect(x, y, w, h);
+};
+
