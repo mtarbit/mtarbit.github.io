@@ -2082,6 +2082,13 @@ section + section {
   font-size: 16px;
 }
 
+.history dd {
+  margin-bottom: 24px;
+}
+.history dd .description {
+  margin-top: 6px;
+}
+
 .project-row {
   margin-right: -16px;
   margin-bottom: 24px;

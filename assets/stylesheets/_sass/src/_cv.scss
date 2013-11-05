@@ -25,6 +25,16 @@
     }
 }
 
+.history {
+    dd {
+        margin-bottom: 24px;
+
+        .description {
+            margin-top: 6px;
+        }
+    }
+}
+
 .project-row {
     margin-right: -16px;
     margin-bottom: 24px;
