@@ -2104,9 +2104,9 @@ section + section {
   width: 400px;
   height: 250px;
   background: #1557af;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 .project .screen img {
   width: 400px;
@@ -2114,9 +2114,9 @@ section + section {
   opacity: 0.1;
   -ms-filter: 'alpha(opacity=10)';
   -webkit-filter: grayscale(1);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 .project:hover .screen {
   background: #333333;

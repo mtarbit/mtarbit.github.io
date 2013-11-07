@@ -50,7 +50,7 @@
         width: 400px;
         height: 250px;
         background: saturate(darken($blue-color, 15%), 25%);
-        @include transition(0.5s);
+        @include transition(background-color 0.5s);
 
         img {
             width: 400px;
@@ -58,7 +58,7 @@
             opacity: 0.1;
             -ms-filter: 'alpha(opacity=10)';
             -webkit-filter: grayscale(1);
-            @include transition(0.5s);
+            @include transition(opacity 0.5s);
         }
     }
 
