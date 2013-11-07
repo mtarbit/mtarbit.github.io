@@ -2099,16 +2099,47 @@ section + section {
   width: 400px;
   margin-right: 16px;
 }
-.project .title {
+.project .screen {
+  position: absolute;
   width: 400px;
   height: 250px;
-  position: absolute;
+  background: #1557af;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+.project .screen img {
+  width: 400px;
+  height: 250px;
+  opacity: 0.1;
+  -ms-filter: 'alpha(opacity=10)';
+  -webkit-filter: grayscale(1);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+.project:hover .screen {
+  background: #333333;
+}
+.project:hover .screen img {
+  opacity: 0.3;
+  -ms-filter: 'alpha(opacity=30)';
+  -webkit-filter: grayscale(0);
+}
+.project .title {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  padding-top: 90px;
+  margin-bottom: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .project .title h4 {
   text-align: center;
   font-size: 36px;
   font-weight: 400;
-  margin-top: 90px;
   color: #fff;
 }
 .project .title h4 em {
@@ -2116,16 +2147,6 @@ section + section {
   font-size: 20px;
   font-weight: 300;
   color: inherit;
-}
-.project .screen {
-  width: 400px;
-  height: 250px;
-  background: #3366aa;
-  margin-bottom: 18px;
-}
-.project .screen img {
-  width: 400px;
-  height: 250px;
 }
 .project .detail {
   font-size: 14px;
