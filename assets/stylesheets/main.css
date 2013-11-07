@@ -2130,7 +2130,7 @@ section + section {
   position: relative;
   width: 400px;
   height: 250px;
-  padding-top: 90px;
+  padding-top: 100px;
   margin-bottom: 18px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2140,6 +2140,7 @@ section + section {
   text-align: center;
   font-size: 36px;
   font-weight: 400;
+  line-height: 1em;
   color: #fff;
 }
 .project .title h4 em {
