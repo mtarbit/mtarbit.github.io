@@ -1991,7 +1991,7 @@ section {
 }
 
 section + section {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #e5e5e5;
   padding-top: 24px;
 }
 
@@ -2029,7 +2029,7 @@ section + section {
   float: left;
   width: 239px;
   padding: 0 24px;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #e5e5e5;
 }
 .activity i[class*="icon-"] {
   position: relative;
