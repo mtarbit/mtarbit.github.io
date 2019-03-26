@@ -1,16 +1,16 @@
 <p>
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a href="/blog">Newer</a>
+            <a href="/blog/">Newer</a>
         {% else %}
-            <a href="/blog/page{{ paginator.previous_page }}">Newer</a>
+            <a href="/blog/page{{ paginator.previous_page }}/">Newer</a>
         {% endif %}
     {% else %}
         <span class="dim">Newer</span>
     {% endif %}
     &nbsp;
     {% if paginator.next_page %}
-        <a href="/blog/page{{ paginator.next_page }}">Older</a>
+        <a href="/blog/page{{ paginator.next_page }}/">Older</a>
     {% else %}
         <span class="dim">Older</span>
     {% endif %}
