@@ -2019,7 +2019,7 @@ section + section {
   margin: 0 auto 24px auto;
   width: 80px;
   height: 80px;
-  background: #333333 url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260.png) no-repeat;
+  background: #333333 url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260?s=160.png) no-repeat;
   border: 2px solid #fff;
   border-radius: 50px;
 }
