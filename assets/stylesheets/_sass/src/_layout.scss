@@ -113,6 +113,7 @@ section + section {
     width: 80px;
     height: 80px;
     background: $darker-grey url(http://www.gravatar.com/avatar/09817af0e39bf34eb915a9319d827260?s=160.png) no-repeat;
+    background-size: cover;
     border: 2px solid #fff;
     border-radius: 50px;
 }
